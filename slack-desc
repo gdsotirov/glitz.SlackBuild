@@ -1,0 +1,22 @@
+glitz: Glitz (An OpenGL image compositing library)
+glitz:
+glitz:   Glitz provides Porter/Duff compositing of images and implicit mask
+glitz: generation for geometric primitives including trapezoids, triangles,
+glitz: and rectangles.
+glitz:   The semantics of glitz are designed to precisely match the
+glitz: specification of the X Render extension. Glitz does not only implement
+glitz: X Render features like component alpha and image transformations, but
+glitz: also support for additional features like convolution filters and
+glitz: color gradients, which are not currently part of the X Render
+glitz: specification.
+glitz:   The performance and capabilities of glitz are much dependent on
+glitz: graphics hardware. Glitz does not in any way handle software
+glitz: fall-backs when graphics hardware is insufficient. However, glitz will
+glitz: report if any requested operation cannot be carried out by graphics
+glitz: hardware, hence making a higher level software layer responsible for
+glitz: appropriate actions.
+glitz:   Glitz can be used as a stand-alone layer above OpenGL but is also
+glitz: designed to act as a backend for cairo, providing it with OpenGL
+glitz: accelerated output. 
+glitz:
+glitz: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
