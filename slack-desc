@@ -19,4 +19,4 @@ glitz:   Glitz can be used as a stand-alone layer above OpenGL but is also
 glitz: designed to act as a backend for cairo, providing it with OpenGL
 glitz: accelerated output. 
 glitz:
-glitz: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
+glitz: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
